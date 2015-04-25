@@ -15,17 +15,21 @@ Process
 The script run_analysis.R performs the following process to clean up the data and create tiny data sets:
 
 1-Merge the training and the test sets to create one data.
+
 2-Extracts only the measurements on the mean and standard deviation for each measurement
+
 3-Uses descriptive activity names to name the activities in the data set 
+
 4-Appropriately labels the data set with descriptive variable names
+
 5-From the data set in previous step , creates a second independent tidy data set with the average of each variable for each activity and each subject
     
 Output
 Tidy.txt is a 180x68 data frame.
 
-    The first column contains subject IDs.
-    The second column contains activity names.
-    The averages for each of the 66 attributes are in columns 3-88.
+The first column contains subject IDs.
+The second column contains activity names.
+The averages for each of the 66 attributes are in columns 3-88.
 "3" "TimeBodyAccelerometerMean...X"
 "4" "TimeBodyAccelerometerMean...Y"
 "5" "TimeBodyAccelerometerMean...Z"
