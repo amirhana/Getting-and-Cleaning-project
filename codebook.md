@@ -28,8 +28,11 @@ Output
 Tidy.txt is a 180x68 data frame.
 
 The first column contains subject IDs.
+
 The second column contains activity names.
+
 The averages for each of the 66 attributes are in columns 3-88.
+
 "3" "TimeBodyAccelerometerMean...X"
 "4" "TimeBodyAccelerometerMean...Y"
 "5" "TimeBodyAccelerometerMean...Z"
